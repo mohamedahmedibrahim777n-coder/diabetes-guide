@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>عن المرض | دليلك الشامل لمرض السكري</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== الهيدر ===== -->
+  <header class="header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">🩺</span>
+        <span>دليل السكري</span>
+      </a>
+
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+      <label for="menu-toggle" class="menu-btn" aria-label="فتح القائمة">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav class="nav">
+        <a href="index.html" class="nav-link">الرئيسية</a>
+        <a href="about.html" class="nav-link active">عن المرض</a>
+        <a href="medications.html" class="nav-link">الأدوية والمواعيد</a>
+        <a href="patient.html" class="nav-link">حالة نموذجية</a>
+        <a href="medications.html" class="btn btn-sm nav-cta">جدول الأدوية</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== ترويسة الصفحة ===== -->
+  <section class="page-hero">
+    <div class="container">
+      <nav class="crumbs" aria-label="مسار التنقل">
+        <a href="index.html">الرئيسية</a> <span>›</span> <span>عن المرض</span>
+      </nav>
+      <h1>📖 شرح مرض السكري وكيفية التعامل معه</h1>
+      <p>من الأعراض الأولى وحتى خطة العيش الصحي اليومية</p>
+    </div>
+  </section>
+
+  <!-- ===== ما هو المرض ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">الشرح العلمي</span>
+        <h2>إزاي بيحصل المرض؟</h2>
+      </div>
+
+      <div class="steps">
+        <div class="step">
+          <span class="step-num">1</span>
+          <div>
+            <h3>البنكرياس يفرز الأنسولين</h3>
+            <p>بعد الأكل يرتفع السكر في الدم، فيقوم البنكرياس بإفراز هرمون الأنسولين كـ "مفتاح" يدخل به السكر إلى الخلايا.</p>
+          </div>
+        </div>
+        <div class="step">
+          <span class="step-num">2</span>
+          <div>
+            <h3>المفتاح يضيع أو المقفل يتعطل</h3>
+            <p>في النوع الأول لا يوجد أنسولين كافٍ (لا يوجد مفتاح)، وفي النوع الثاني الخلايا تقاوم الأنسولين (المقفل متعطل) — وفي الحالتين السكر لا يدخل الخلايا.</p>
+          </div>
+        </div>
+        <div class="step">
+          <span class="step-num">3</span>
+          <div>
+            <h3>السكر يتراكم ويتلف الأوعية</h3>
+            <p>جلوكوز متراكم في الدم على المدى الطويل يُتلف الأوعية الدموية الصغيرة، فيتأثر: العين، الكلى، الأعصاب، والقدم أولًا.</p>
+          </div>
+        </div>
+        <div class="step">
+          <span class="step-num">4</span>
+          <div>
+            <h3>الحل: السيطرة على السكر</h3>
+            <p>الحفاظ على السكر ضمن المستوى المستهدف (دواء + غذاء + حركة + قياس) يمنع هذه المضاعفات أو يؤخرها لسنوات طويلة.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== الأعراض ===== -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">الأعراض</span>
+        <h2>علامات تنبّهك لوجود المرض</h2>
+        <p>لو لاحظت أغلبها مع بعض، اروح افحص سكر الدم فورًا</p>
+      </div>
+
+      <div class="symptom-grid">
+        <div class="symptom">🥤 عطش شديد ومستمر</div>
+        <div class="symptom">🚻 تبول كتير خصوصًا بالليل</div>
+        <div class="symptom">😴 إرهاق وتعب دائم</div>
+        <div class="symptom">👓 تشوش أو ضعف الرؤية</div>
+        <div class="symptom">⚖️ نقص وزن مفاجئ بدون سبب</div>
+        <div class="symptom">🩹 جروح بطيئة الالتئام</div>
+        <div class="symptom">🖐️ تنميل في الأطراف</div>
+        <div class="symptom">🔁 التهابات متكررة</div>
+      </div>
+
+      <div class="alert alert-danger">
+        🚨 <strong>علامات خطيرة تتطلب الذهاب للطبيب فورًا:</strong>
+        رائحة أسيتون (فواكه) في النفس، تنفس سريع وعميق، تشوش وعي،
+        قياس سكر أعلى من 300 mg/dL، أو أعراض هبوط شديد بالسكر.
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== التشخيص ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">التشخيص</span>
+        <h2>إزاي يتأكد الطبيب من الإصابة؟</h2>
+        <p>تحليل دم بسيط يحدد كل شيء</p>
+      </div>
+
+      <div class="table-wrap">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>التحليل</th>
+              <th>طبيعي ✅</th>
+              <th>ما قبل السكري ⚠️</th>
+              <th>سكري ❌</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>سكر صائم (8 ساعات معدة فاضية)</td>
+              <td>أقل من 100</td>
+              <td>100 – 125</td>
+              <td><strong>126 أو أكثر</strong></td>
+            </tr>
+            <tr>
+              <td>سكر عشوائي + أعراض</td>
+              <td>—</td>
+              <td>—</td>
+              <td><strong>200 أو أكثر</strong></td>
+            </tr>
+            <tr>
+              <td>التراكمي HbA1c (متوسط 3 شهور)</td>
+              <td>أقل من 5.7%</td>
+              <td>5.7% – 6.4%</td>
+              <td><strong>6.5% أو أكثر</strong></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="table-note">القيم بوحدة mg/dL — حسب معايير الجمعية الأمريكية للسكري (ADA)</p>
+    </div>
+  </section>
+
+  <!-- ===== كيفية التعامل ===== -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">التعامل مع المرض</span>
+        <h2>خمس ركائز للعيش مع السكري</h2>
+        <p>الالتزام بيهم بيفرق بين حياة طبيعية ومضاعفات خطيرة</p>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <div class="card-icon">🥗</div>
+          <h3>1. غذاء متوازن</h3>
+          <p>
+            قلل السكريات والنشويات المكررة (مكرونة أبيض، حلويات، مشروبات سكرية)،
+            زوّد الألياف (خضار، فاكهة كاملة، خبز أسمر)، وقسّم وجباتك على
+            اليوم: 3 وجبات رئيسية + سناكس خفيف، وكلها في مواعيد ثابتة.
+          </p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">🏃</div>
+          <h3>2. حركة ورياضة</h3>
+          <p>
+            المشي 30 دقيقة 5 أيام أسبوعيًا (150 دقيقة) يخفض السكر ويحسّن
+            استجابة الجسم للأنسولين. ابدأ تدريجيًا، وامشِ بعد الأكل بساعة
+            تقريبًا للحصول على أفضل فائدة.
+          </p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">💊</div>
+          <h3>3. الدواء في موعده</h3>
+          <p>
+            التزم بالجرعات والمواعيد التي حددها طبيبك بالضبط، ولا توقف الدواء
+            حتى لو حسّنت — ولا تضاعف الجرعة لو نسيت جرعة. صفحة
+            <a href="medications.html">الأدوية والمواعيد</a> فيها كل التفاصيل.
+          </p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">🩸</div>
+          <h3>4. القياس والمتابعة</h3>
+          <p>
+            قِس سكرك في المنزل حسب تعليمات الطبيب وسجّل النتائج، وعمل تحليل
+            HbA1c كل 3 شهور لمعرفة متوسط السيطرة، وحمّل تطبيق أو استخدم
+            دفترًا للتسجيل.
+          </p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">🦶</div>
+          <h3>5. عناية بالقدم والعين</h3>
+          <p>
+            افحص قدميك يوميًا (جروح، تشققات، تغير لون)، نظفهما وجففهما جيدًا
+            خصوصًا بين الأصابع، وافحص النظر والشبكية سنويًا — فقدم وعين
+            السكري أوّل ما بيتأثروا.
+          </p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">🧠</div>
+          <h3>6. الدعم النفسي</h3>
+          <p>
+            المرض المزمن مرهق نفسيًا، وضغط النفس يرفع السكر نفسه. شارك أهلك،
+            انضم لمجموعات مرضى، ولا تتردد في طلب مساعدة متخصص نفسي —
+            الحالة النفسية جزء من العلاج.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ممنوعات ومسموحات ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">النظام الغذائي</span>
+        <h2>أكل يمنع ويأكل يُسمح</h2>
+      </div>
+
+      <div class="two-cols">
+        <div class="food-box food-avoid">
+          <h3>⛔ قلل أو امتنع</h3>
+          <ul>
+            <li>مشروبات غازية وعصائر معلبة ومحلاة</li>
+            <li>حلويات وفطائر ومصنعات</li>
+            <li>نصاريس أبيض ومكرونة بأغلبية سكرية</li>
+            <li>مقليات ودهون مشبعة (سمن، لحم دهني)</li>
+            <li>مالح بزيادة — يرفع ضغط الدم مع السكر</li>
+          </ul>
+        </div>
+        <div class="food-box food-allow">
+          <h3>✅ كُل بوفرة</h3>
+          <ul>
+            <li>خضار ورقية وسلطة في كل وجبة</li>
+            <li>فاكهة كاملة (مش عصير) بجرعة معقولة</li>
+            <li>خبز أسمر / بلدي — بكمية محسوبة</li>
+            <li>فول، عدس، فول صويا — بروتين نباتي وألياف</li>
+            <li>لحوم مشوية ومسمكة وزيت زيتون ومكسرات</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== تنبيه طبي ===== -->
+  <div class="container">
+    <div class="doc-note">
+      ⚠️ <strong>تنبيه مهم:</strong> هذا الموقع للتعليم والتوعية فقط، ولا يغني
+      أبدًا عن استشارة الطبيب. لا تغير أي دواء أو جرعة إلا بموافقة طبيبك.
+    </div>
+  </div>
+
+  <!-- ===== الفوتر ===== -->
+  <footer class="footer">
+    <div class="container footer-wrap">
+      <p>© 2026 دليل السكري — محتوى تعليمي للتوعية الصحية</p>
+      <div class="socials">
+        <a href="#" aria-label="فيسبوك">f</a>
+        <a href="#" aria-label="تويتر">𝕏</a>
+        <a href="#" aria-label="انستجرام">◎</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

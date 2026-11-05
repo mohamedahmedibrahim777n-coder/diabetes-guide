@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>الرئيسية | دليلك الشامل لمرض السكري</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== الهيدر ===== -->
+  <header class="header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">🩺</span>
+        <span>دليل السكري</span>
+      </a>
+
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+      <label for="menu-toggle" class="menu-btn" aria-label="فتح القائمة">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav class="nav">
+        <a href="index.html" class="nav-link active">الرئيسية</a>
+        <a href="about.html" class="nav-link">عن المرض</a>
+        <a href="medications.html" class="nav-link">الأدوية والمواعيد</a>
+        <a href="patient.html" class="nav-link">حالة نموذجية</a>
+        <a href="about.html" class="btn btn-sm nav-cta">ابدأ التعلم</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== السيكشن الرئيسي ===== -->
+  <section id="home" class="hero">
+    <div class="container hero-wrap">
+      <div class="hero-text">
+        <span class="badge">📘 معلومات طبية بلغة بسيطة</span>
+        <h1>دليلك الشامل لفهم <span class="highlight">مرض السكري</span> والتعايش معه</h1>
+        <p>
+          كل ما تحتاج معرفته عن مرض السكر: تعريفه، أعراضه، طرق التعامل معه،
+          الأدوية المتاحة ومواعيدها، ومثال عملي ليوم كامل مع مريض سكري.
+        </p>
+        <div class="hero-actions">
+          <a href="about.html" class="btn">اعرف عن المرض</a>
+          <a href="medications.html" class="btn btn-outline">الأدوية والمواعيد</a>
+        </div>
+
+        <ul class="hero-stats">
+          <li><strong>+537</strong><span>مليون مصاب حول العالم</span></li>
+          <li><strong>90%</strong><span>منهم سكري النوع الثاني</span></li>
+          <li><strong>100%</strong><span>قابل للسيطرة عليه</span></li>
+        </ul>
+      </div>
+
+      <div class="hero-art" aria-hidden="true">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="card-float card-float-1">🩸 متابعة السكر</div>
+        <div class="card-float card-float-2">💊 دواء في موعده</div>
+        <div class="hero-circle">
+          <div class="hero-icon">🩺</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ما هو مرض السكري ===== -->
+  <section id="definition" class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">تعريف المرض</span>
+        <h2>ما هو مرض السكري؟</h2>
+        <p>ببساطة شديدة... خلق في الجسم غُدة اسمها البنكرياس تقفز فوقها</p>
+      </div>
+
+      <div class="def-grid">
+        <div class="def-text">
+          <p>
+            <strong>مرض السكري (Diabetes)</strong> هو مرض مزمن يحدث عندما يرتفع
+            مستوى <strong>السكر (الجلوكوز)</strong> في الدم عن الحد الطبيعي.
+            الجلوكوز هو وقود الجسم الأساسي، ولكي يدخل الخلايا ويحترق يحتاج إلى
+            هرمون اسمه <strong>الأنسولين</strong> تفرزه غدة البنكرياس.
+          </p>
+          <p>
+            في السكري إما أن البنكرياس <strong>لا ينتج أنسولين كافيًا</strong>
+            (النوع الأول)، أو أن الجسم <strong>لا يستجيب للأنسولين</strong>
+            الموجود (النوع الثاني)، فيتراكم السكر في الدم بدل أن يدخل الخلايا،
+            ومع الوقت يُتلف الأوعية الدموية والأعصاب والكلى والعينين.
+          </p>
+          <ul class="check-list">
+            <li>✔ مرض مزمن لكن <strong>السيطرة عليه ممكنة تمامًا</strong></li>
+            <li>✔ المريض المنضبط يعيش حياة طبيعية كاملة</li>
+            <li>✔ المفتاح: دواء منتظم + غذاء متوازن + حركة + قياس</li>
+          </ul>
+        </div>
+
+        <div class="def-visual" aria-hidden="true">
+          <div class="glucose-meter">
+            <div class="meter-screen">
+              <span class="meter-label">سكر صائم طبيعي</span>
+              <strong class="meter-value">80–130</strong>
+              <span class="meter-unit">mg/dL</span>
+            </div>
+          </div>
+          <div class="meter-note">🎯 المستوى المستهدف لمعظم مرضى السكري (استشر طبيبك)</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== أنواع السكري ===== -->
+  <section id="types" class="section section-alt">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">الأنواع</span>
+        <h2>أنواع مرض السكري الثلاثة</h2>
+        <p>لكل نوع سبب مختلف وطريقة علاج مختلفة</p>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <div class="card-icon">🧒</div>
+          <h3>النوع الأول</h3>
+          <p>
+            هجوم الجهاز المناعي على خلايا البنكرياس فتتوقف عن إنتاج الأنسولين.
+            يبدأ غالبًا في الطفولة والشباب، وعلاجه <strong>حقن الأنسولين</strong>
+            مدى الحياة.
+          </p>
+        </article>
+
+        <article class="card card-featured">
+          <div class="card-icon">🧑‍💼</div>
+          <h3>النوع الثاني</h3>
+          <p>
+            الأشيع على الإطلاق (أكثر من 90% من الحالات): الجسم ينتج الأنسولين
+            لكن الخلايا تقاومه بسبب السمنة وقلة الحركة والوراثة. علاجه تغيير
+            نمط الحياة + أقراص خافضة للسكر غالبًا.
+          </p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">🤰</div>
+          <h3>سكري الحمل</h3>
+          <p>
+            يظهر لدى بعض الحوامل بسبب هرمونات المشيمة، ويزول غالبًا بعد الولادة،
+            لكنه مؤشر خطر للإصابة بالنوع الثاني لاحقًا، لذا المتابعة ضرورية.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== صفحات الموقع ===== -->
+  <section id="explore" class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">استكشف الموقع</span>
+        <h2>الموقع مقسم لأربع صفحات</h2>
+        <p>ابدأ من أي صفحة حسب ما تحتاجه</p>
+      </div>
+
+      <div class="cards">
+        <a href="about.html" class="card card-link">
+          <div class="card-icon">📖</div>
+          <h3>عن المرض</h3>
+          <p>شرح مفصل للمرض: الأعراض، طرق التشخيص، وكيف تتعامل معه خطوة بخطوة.</p>
+          <span class="card-go">اذهب للصفحة ←</span>
+        </a>
+
+        <a href="medications.html" class="card card-link">
+          <div class="card-icon">💊</div>
+          <h3>الأدوية والمواعيد</h3>
+          <p>الأقراص والأنسولين المتاحة، وجدول مواعيد كل دواء وطريقة تناوله.</p>
+          <span class="card-go">اذهب للصفحة ←</span>
+        </a>
+
+        <a href="patient.html" class="card card-link">
+          <div class="card-icon">🧍</div>
+          <h3>حالة نموذجية</h3>
+          <p>يوم كامل مع مريض سكري: جدول أدويته ووجباته وكيف يتعامل معه أهله.</p>
+          <span class="card-go">اذهب للصفحة ←</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== تنبيه طبي ===== -->
+  <div class="container">
+    <div class="doc-note">
+      ⚠️ <strong>تنبيه مهم:</strong> هذا الموقع للتعليم والتوعية فقط، ولا يغني
+      أبدًا عن استشارة الطبيب. لا تغير أي دواء أو جرعة إلا بموافقة طبيبك.
+    </div>
+  </div>
+
+  <!-- ===== الفوتر ===== -->
+  <footer class="footer">
+    <div class="container footer-wrap">
+      <p>© 2026 دليل السكري — محتوى تعليمي للتوعية الصحية</p>
+      <div class="socials">
+        <a href="#" aria-label="فيسبوك">f</a>
+        <a href="#" aria-label="تويتر">𝕏</a>
+        <a href="#" aria-label="انستجرام">◎</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

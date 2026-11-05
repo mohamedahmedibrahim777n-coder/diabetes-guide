@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>الأدوية والمواعيد | دليلك الشامل لمرض السكري</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== الهيدر ===== -->
+  <header class="header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">🩺</span>
+        <span>دليل السكري</span>
+      </a>
+
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+      <label for="menu-toggle" class="menu-btn" aria-label="فتح القائمة">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav class="nav">
+        <a href="index.html" class="nav-link">الرئيسية</a>
+        <a href="about.html" class="nav-link">عن المرض</a>
+        <a href="medications.html" class="nav-link active">الأدوية والمواعيد</a>
+        <a href="patient.html" class="nav-link">حالة نموذجية</a>
+        <a href="patient.html" class="btn btn-sm nav-cta">حالة عملية</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== ترويسة الصفحة ===== -->
+  <section class="page-hero">
+    <div class="container">
+      <nav class="crumbs" aria-label="مسار التنقل">
+        <a href="index.html">الرئيسية</a> <span>›</span> <span>الأدوية والمواعيد</span>
+      </nav>
+      <h1>💊 الأدوية المتاحة ومواعيدها</h1>
+      <p>الأقراص والأنسولين: إمتى تتاكل، وإزاي، وليه في الموعد ده بالذات</p>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="alert alert-warn">
+      ⚠️ <strong>الأهم هنا:</strong> المواعيد والجرعات في هذه الصفحة هي
+      <strong>أمثلة تعليمية شائعة</strong> — الجرعة الفعلية وعدد المرات تختلف
+      من مريض لمريض ولا بد من الالتزام بوصفة طبيبك أنت بالذات.
+    </div>
+  </div>
+
+  <!-- ===== أقراص خافضة السكر ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">العلاج الفموي</span>
+        <h2>الأقراص الشائعة لسكري النوع الثاني</h2>
+        <p>مرتبة من الأكثر استخدامًا في العالم</p>
+      </div>
+
+      <div class="cards">
+        <article class="card card-featured">
+          <div class="card-icon">🥇</div>
+          <h3>الميتفورمين (Metformin)</h3>
+          <p>
+            الدواء الأول والأكثر وصفًا للنوع الثاني — يقلل إنتاج السكر من
+            الكبد ويحسّن استجابة الخلايا للأنسولين.
+            <strong>يُتناول مع الطعام أو بعده مباشرة</strong> عادةً مرتين يوميًا
+            (مع الفطار والعشاء) لتجنب اضطراب المعدة.
+          </p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">⏰</div>
+          <h3>السلفونيل يوريا (جليميبريد/أماريل)</h3>
+          <p>
+            تحفّز البنكرياس على إفراز أنسولين أكثر.
+            <strong>تُتناول قبل الوجبة بـ 20–30 دقيقة</strong> عادةً مرة أو
+            مرتين يوميًا — وتناولها بدون وجبة قد يسبب هبوط سكر شديد، فلا
+            تتناولها إلا إذا كنت ستعجل على الأكل فعلًا.
+          </p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">💧</div>
+          <h3>مثبطات SGLT2 (إمباجليفلوزين)</h3>
+          <p>
+            تدفع الكلى لطرح السكر الزائد في البول، وتفيد القلب والكلى.
+            <strong>قرص واحد صباحًا قبل الإفطار</strong> عادةً، مع شرب كمية
+            كافية من الماء على مدار اليوم.
+          </p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">🛡️</div>
+          <h3>مثبطات DPP-4 (سيتاجليبتين)</h3>
+          <p>
+            تحسّن إفراز الأنسولين بعد الأكل، آمنة ولا تسبب هبوطًا شديدًا
+            غالبًا. <strong>قرص واحد يوميًا في نفس الموعد تمامًا</strong>
+            (صباحًا أو مساءً حسب وصفة الطبيب) مع أو بدون أكل.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== جدول مواعيد الأقراص ===== -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">جدول المواعيد</span>
+        <h2>📅 مواعيد الأقراص في اليوم الواحد</h2>
+      </div>
+
+      <div class="table-wrap">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>الدواء</th>
+              <th>مثال المواعيد اليومية</th>
+              <th>طريقة التناول</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>ميتفورمين</strong></td>
+              <td>مع الفطار 7:00 + مع العشاء 20:00</td>
+              <td>مع الطعام مباشرة لتقليل التخمة المعدة</td>
+            </tr>
+            <tr>
+              <td><strong>جليميبريد</strong></td>
+              <td>قبل الفطار 6:30</td>
+              <td>قبل الأكل بـ 20–30 دقيقة — لا تتناوله بدون وجبة</td>
+            </tr>
+            <tr>
+              <td><strong>إمباجليفلوزين</strong></td>
+              <td>قبل الإفطار 7:00</td>
+              <td>صباحًا على معدة فارغة، مع 8 كوب ماء يوميًا</td>
+            </tr>
+            <tr>
+              <td><strong>سيتاجليبتين</strong></td>
+              <td>قرص واحد 8:00 صباحًا</td>
+              <td>موعد ثابت يوميًا، مع أو بدون أكل</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="table-note">المواعيد أعلاه أمثلة نموذجية — رتّبها مع طبيبك على عاداتك اليومية</p>
+    </div>
+  </section>
+
+  <!-- ===== الأنسولين ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">العلاج بالحقن</span>
+        <h2>💉 أنواع الأنسولين ومواعيدها</h2>
+        <p>الفرق بينها كله هو "سرعة البداية ومدة البقاء"</p>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <div class="card-icon">⚡</div>
+          <h3>سريع المفعول</h3>
+          <p>
+            (أسبارت / ليسبرو) يبدأ خلال 10–15 دقيقة.
+            <strong>قبل الوجبة الرئيسية مباشرة بـ 10–15 دقيقة</strong> —
+            لا تأخذه ثم لا تأكل، فهذا سبب شائع للهبوط الشديد.
+          </p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">🕐</div>
+          <h3>قصير المفعول</h3>
+          <p>
+            (الانسولين العادي) يبدأ بعد 30 دقيقة.
+            <strong>قبل الوجبة بـ 30 دقيقة</strong> — أي قبل ما تبدأ الأكل
+            بنص ساعة بالضبط.
+          </p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">🕕</div>
+          <h3>متوسط المفعول</h3>
+          <p>
+            (NPH) يبدأ خلال 1–2 ساعة ويستمر ~12 ساعة.
+            <strong>قبل الفطار وقبل العشاء</strong> عادةً، ويُرجه بلطف قبل
+            الحقن — لا ترجه بقوة حتى لا يتلف.
+          </p>
+        </article>
+
+        <article class="card card-featured">
+          <div class="card-icon">🌙</div>
+          <h3>طويل المفعول</h3>
+          <p>
+            (جارجين / ديجلوذك) يعمل بسلاسة ~24 ساعة.
+            <strong>حقنة واحدة في نفس الوقت كل يوم</strong> (غالبًا قبل النوم)
+            — ثبات الموعد هنا أهم من أي شيء.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== نصائح الالتزام ===== -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">الالتزام</span>
+        <h2>خداع نفسك... إزاي تتأكد إنك ما تنساش؟</h2>
+      </div>
+
+      <div class="tip-grid">
+        <div class="tip">⏰ ضع منبهًا على الموبايل باسم كل دواء وموعده</div>
+        <div class="tip">📦 علبة دواء أسبوعية (الأصناف المنظمة) تنقذك من النسيان</div>
+        <div class="tip">🍽️ اربط الدواء بحدث ثابت: الفطار، العشاء، التفريش السن</div>
+        <div class="tip">✍️ علّم ✔ على الجرعة بعد تناولها فورًا</div>
+        <div class="tip">🌀 غيّر موضع الحقن يوميًا (بطن، فخد، ذراع) ولواحد التسلسل</div>
+        <div class="tip">❄️ الأنسولين غير المستخدم يُحفظ في الثلاجة (2–8°) بعيدًا عن التجميد</div>
+        <div class="tip">✈️ السفر؟ خذ العدد المطلوب + القلم في حقيبة اليد مش الشحن</div>
+        <div class="tip">🧾 جدد وصفاتك قبل انتهاء الأدوية بأسبوع</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== الطوارئ ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">مهم جدًا</span>
+        <h2>🚨 الهبوط المفاجئ في السكر وقاعدة 15/15</h2>
+      </div>
+
+      <div class="two-cols">
+        <div class="food-box food-allow">
+          <h3>علامات الهبوط (أقل من 70 mg/dL)</h3>
+          <ul>
+            <li>ارتجاف في اليدين وتعرق بارد</li>
+            <li>جوع مفاجئ شديد</li>
+            <li>دوخة أو تشوش تفكير</li>
+            <li>تهيج أو قلق مفاجئ</li>
+          </ul>
+        </div>
+        <div class="food-box food-avoid">
+          <h3>قاعدة 15/15 للعلاج</h3>
+          <ul>
+            <li>تناول <strong>15 جرام سكر سريع</strong>: نص كوب عصير، 3 تمرات، أو ملعقة عسل/سكر</li>
+            <li>انتظر <strong>15 دقيقة</strong> ثم أعد القياس</li>
+            <li>لو لسه أقل من 70 — كرر الجرعة مرة أخرى</li>
+            <li>لما يتحسن: كل وجبة خفيفة ثابتة (خبز + جبنة)</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="alert alert-danger">
+        🚨 <strong>لو المريض فقد الوعي:</strong> لا تعطيه أي شيء بالفم مطلقًا
+        (خطر الاختناق) — ضعه على جانبه واطلب الإسعاف فورًا، ولو عندك جلوكاجون
+        (حقنة الطوارئ) فاستخدمها.
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== تنبيه طبي ===== -->
+  <div class="container">
+    <div class="doc-note">
+      ⚠️ <strong>تنبيه مهم:</strong> هذا الموقع للتعليم والتوعية فقط، ولا يغني
+      أبدًا عن استشارة الطبيب. لا تغير أي دواء أو جرعة إلا بموافقة طبيبك.
+    </div>
+  </div>
+
+  <!-- ===== الفوتر ===== -->
+  <footer class="footer">
+    <div class="container footer-wrap">
+      <p>© 2026 دليل السكري — محتوى تعليمي للتوعية الصحية</p>
+      <div class="socials">
+        <a href="#" aria-label="فيسبوك">f</a>
+        <a href="#" aria-label="تويتر">𝕏</a>
+        <a href="#" aria-label="انستجرام">◎</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
